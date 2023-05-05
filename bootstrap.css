@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: bisque ;
+
+}
+
+
+.nav-link{
+  color:black;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.nav-link:hover{
+  color: white;
+  background-color: black;
+} 
+.navbar-brand{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main{
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+.main h3{
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.main h6{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 2;
+  border-bottom: 3px solid rgba(171,37,130,255);
+  width: 35%;
+}
+.main .bt1{
+  height: 55px;
+  width: 138px;
+  background-color:rgba(171,37,130,255);
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+.main .bt1:hover{
+  background-color:rgba(171,37,130,255);
+  transition: 0.5s
+}
+.main .bt2{
+  height: 55px;
+  width: 138px;
+  background-color:transparent;
+  color: rgba(171,37,130,255);
+  outline: none;
+  border: none;
+  font-weight: bolder;
+  border-radius: 5px;
+  
+}
+
+.main .bt2:hover{
+  background-color: rgba(171,37,130,255);
+  transition: 0.5s;
+  color: white;
+}
+
+.about img{
+  -webkit-box-shadow: -9px -9px 54px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px -9px 54px 0px rgba(0,0,0,0.75);
+box-shadow: -9px -9px 54px 0px rgba(0,0,0,0.75);
+
+}
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.progress{
+  background-color: white;
+  justify-content: flex-start;
+  border-radius: 50px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 25px;
+  width: 100%;
+}
+.pro-value1{
+  animation: load1 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+}
+.progress p{
+color: bisque;
+padding: 12px;
+}
+@keyframes load1{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+
+
+}
+.pro-value2{
+  animation: load2 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+}
+@keyframes load2{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 50%;
+  }
+
+
+}
+
+.pro-value3{
+  animation: load3 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+}
+@keyframes load3{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 30%;
+  }
+
+
+}
+
+.pro-value4{
+  animation: load4 3s normal forwards;
+  border-radius: 50px;
+  background-color: black;
+  height: 25px;
+  width: 0;
+}
+@keyframes load4{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 20%;
+  }
+
+
+}
+.btn1{
+  height: 40px;
+  width: 145px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: bisque;
+  border-radius: 4px;
+}
+.btn1:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  transition: 0,5s;
+}
+.card{
+  border: none;
+  outline: none;
+  -webkit-box-shadow: -99px 58px 129px -94px rgba(0,0,0,0.75);
+-moz-box-shadow: -99px 58px 129px -94px rgba(0,0,0,0.75);
+box-shadow: -99px 58px 129px -94px rgba(0,0,0,0.75);
+}
+.card p{
+  color: gray;
+}
+
+
+footer{
+	text-align: center;
+  background-color: bisque;
+}
